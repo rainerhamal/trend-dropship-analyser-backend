@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+# corsmiddleware
+openai
+pandas
+pydantic
+python-dotenv
+pytrends
+requests
+beautifulsoup4
+matplotlib
+selenium
+aiohttp
+python-amazon-paapi
