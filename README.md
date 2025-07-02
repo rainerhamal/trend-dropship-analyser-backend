@@ -10,7 +10,6 @@ This is the backend service for https://github.com/rainerhamal/trend-dropship-an
 - **FastAPI** – Web framework
 - **Uvicorn** – ASGI server
 - **Pydantic** – Data validation
-- **HTTPX / aiohttp** (if used) – For async HTTP requests
 - **CORS Middleware** – For frontend-backend communication
 
 ---
