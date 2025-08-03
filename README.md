@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Trend Dropship Analyser Backend
 
 This application is a backend service for analyzing trending products across major e-commerce and social platforms. It uses web scraping, Google Trends, and GPT-4 to provide actionable insights for dropshipping and product research.
@@ -62,3 +63,35 @@ MIT License
 
 ## Author
 Rainer Hamal
+=======
+# ⚙️ TrendOps API – FastAPI Backend
+
+This is the backend service for https://github.com/rainerhamal/trend-dropship-analyser, a trend analysis platform powered by FastAPI. It handles incoming analysis requests, processes data (e.g., from Google Trends), and returns structured insights for frontend visualization.
+
+---
+
+## 📦 Tech Stack
+
+- **Python 3.10+**
+- **FastAPI** – Web framework
+- **Uvicorn** – ASGI server
+- **Pydantic** – Data validation
+- **CORS Middleware** – For frontend-backend communication
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/rainerhamal/trend-dropship-analyser-backend/new/main?filename=README.md.git
+
+python -m venv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+uvicorn main:app --reload
+```
+>>>>>>> 0701c3e56da41117c15e987817a23d865157c04f
